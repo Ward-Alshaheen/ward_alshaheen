@@ -69,12 +69,12 @@
         <ul class="nav-links" id="navLinks">
           <li><a href="#home" class="nav-link active" data-i18n="nav_home">الرئيسية</a></li>
           <li><a href="#about" class="nav-link" data-i18n="nav_about">من أنا</a></li>
-          <li><a href="#recommendation" class="nav-link" data-i18n="nav_recommendation">التوصية الرسمية</a></li>
+          <li><a href="#recommendation" class="nav-link" data-i18n="nav_recommendation">التوصية</a></li>
           <li><a href="#skills" class="nav-link" data-i18n="nav_skills">المهارات</a></li>
           <li><a href="#experience" class="nav-link" data-i18n="nav_experience">الخبرات</a></li>
           <li><a href="#projects" class="nav-link" data-i18n="nav_projects">المشاريع</a></li>
-          <li><a href="#references" class="nav-link" data-i18n="nav_references">المعرفون والتوصيات</a></li>
-          <li><a href="#contact" class="nav-link" data-i18n="nav_contact">تواصل معي</a></li>
+          <li><a href="#references" class="nav-link" data-i18n="nav_references">المعرفون</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="nav_contact">تواصل</a></li>
           <li class="md:hidden pt-2 border-t border-slate-700/50 mt-1">
             <a href="./ward alshaheen.pdf" download="Ward_Alshaheen_CV.pdf" class="btn-primary !w-full justify-center !py-2.5 !text-sm flex items-center gap-2">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -82,7 +82,7 @@
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
               </svg>
-              <span data-i18n="nav_download_cv">تحميل الـ CV</span>
+              <span data-i18n="nav_download_cv">الـ CV</span>
             </a>
           </li>
         </ul>
@@ -91,28 +91,28 @@
       <!-- Action Buttons (Lang Toggle, Theme Toggle, CV Download) -->
       <div class="nav-actions">
         <!-- Language Switcher -->
-        <button id="langToggle" class="icon-btn" title="تغيير اللغة / Switch Language" aria-label="Toggle language">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <button id="langToggle" class="icon-btn whitespace-nowrap" title="Switch Language" aria-label="Toggle language">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="10"></circle>
             <line x1="2" y1="12" x2="22" y2="12"></line>
             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
           </svg>
-          <span>English</span>
+          <span class="lang-text" style="font-weight: 700; font-size: 0.8rem;">EN</span>
         </button>
 
         <!-- Theme Switcher -->
-        <button id="themeToggle" class="icon-btn" title="تبديل الوضع / Toggle Theme" aria-label="Toggle theme">
+        <button id="themeToggle" class="icon-btn whitespace-nowrap" title="تبديل الوضع" aria-label="Toggle theme">
           <!-- Populated by JS -->
         </button>
 
         <!-- Quick CV Download Link -->
-        <a href="./ward alshaheen.pdf" download="Ward_Alshaheen_CV.pdf" class="btn-primary !py-2 !px-3.5 !text-sm hidden sm:inline-flex">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <a href="./ward alshaheen.pdf" download="Ward_Alshaheen_CV.pdf" class="btn-primary !py-2 !px-3.5 !text-xs hidden sm:inline-flex whitespace-nowrap">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
             <line x1="12" y1="15" x2="12" y2="3"></line>
           </svg>
-          <span data-i18n="nav_download_cv">تحميل الـ CV</span>
+          <span data-i18n="nav_download_cv">الـ CV</span>
         </a>
 
         <!-- Mobile Menu Toggle Button -->

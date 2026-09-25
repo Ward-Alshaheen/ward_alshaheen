@@ -14,7 +14,7 @@ const translations = {
     nav_projects: "Projects",
     nav_references: "References",
     nav_contact: "Contact",
-    nav_download_cv: "Download CV",
+    nav_download_cv: "CV",
     
     // Hero
     hero_available: "Available for new opportunities & freelance projects",
@@ -226,13 +226,13 @@ const translations = {
     // Nav
     nav_home: "الرئيسية",
     nav_about: "من أنا",
-    nav_recommendation: "التوصية الرسمية",
+    nav_recommendation: "التوصية",
     nav_skills: "المهارات",
     nav_experience: "الخبرات",
     nav_projects: "المشاريع",
-    nav_references: "المعرفون والتوصيات",
-    nav_contact: "تواصل معي",
-    nav_download_cv: "تحميل السيرة الذاتية",
+    nav_references: "المعرفون",
+    nav_contact: "تواصل",
+    nav_download_cv: "الـ CV",
 
     // Hero
     hero_available: "متاح لفرص العمل الجديدة والمشاريع البرمجية",
@@ -520,8 +520,10 @@ function updateThemeIcon() {
   const themeBtn = document.getElementById('themeToggle');
   if (!themeBtn) return;
   if (currentTheme === 'dark') {
+    themeBtn.setAttribute('title', currentLang === 'ar' ? 'التحويل إلى الوضع المضيء' : 'Switch to Light Mode');
+    themeBtn.setAttribute('aria-label', currentLang === 'ar' ? 'الوضع المضيء' : 'Light Mode');
     themeBtn.innerHTML = `
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
         <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -532,14 +534,14 @@ function updateThemeIcon() {
         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
       </svg>
-      <span class="theme-text">${currentLang === 'ar' ? 'الوضع المضيء' : 'Light'}</span>
     `;
   } else {
+    themeBtn.setAttribute('title', currentLang === 'ar' ? 'التحويل إلى الوضع الليلي' : 'Switch to Dark Mode');
+    themeBtn.setAttribute('aria-label', currentLang === 'ar' ? 'الوضع الليلي' : 'Dark Mode');
     themeBtn.innerHTML = `
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
       </svg>
-      <span class="theme-text">${currentLang === 'ar' ? 'الوضع الليلي' : 'Dark'}</span>
     `;
   }
 }
@@ -570,13 +572,14 @@ function initLanguage(lang) {
   // Update language toggle button text
   const langToggle = document.getElementById('langToggle');
   if (langToggle) {
+    langToggle.setAttribute('title', lang === 'ar' ? 'Switch to English' : 'التحويل للغة العربية');
     langToggle.innerHTML = `
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="10"></circle>
         <line x1="2" y1="12" x2="22" y2="12"></line>
         <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
       </svg>
-      <span>${lang === 'ar' ? 'English' : 'العربية'}</span>
+      <span class="lang-text" style="font-weight: 700; font-size: 0.8rem; letter-spacing: 0.02em;">${lang === 'ar' ? 'EN' : 'عربي'}</span>
     `;
   }
 
