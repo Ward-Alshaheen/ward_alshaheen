@@ -61,9 +61,17 @@ const translations = {
     about_desc: "Bridging solid software engineering principles with robust backend systems to deliver dependable software.",
     about_p1: "I am a Software Engineering graduate from Damascus University (2019 – 2024), specialized in backend development with Laravel and modern relational database architectures. My focus centers on architecting clean, maintainable, and high-load web systems that can seamlessly evolve over time.",
     about_p2: "Throughout my career at HabApps, Nuhieh, and freelance environments, as well as my leadership role at the Reparametrize Research Platform, I have engineered RESTful APIs, GraphQL endpoints, real-time WebSocket communications, automated CI/CD pipelines, and secure transaction systems.",
+    about_meta_languages_title: "Languages",
+    about_meta_languages_val: "Arabic (Native) | English (Proficient)",
+    about_meta_spec_title: "Specialization",
     about_degree_title: "B.Sc. in Software Engineering",
     about_degree_sub: "Damascus University (2019 – 2024)",
     about_degree_desc: "Comprehensive coursework in algorithms, data structures, software architecture, database management systems, distributed systems, and network security.",
+    about_bullet_1: "Software Architecture & Clean Code Engineering",
+    about_bullet_2: "Database Schema Normalization & Query Optimization (SQL)",
+    about_bullet_3: "Advanced Design Patterns & SOLID Principles",
+    about_org_title: "Organizations & Activities:",
+    about_org_val: "Active Member of JCI Damascus (Junior Chamber International)",
 
     // Skills Section
     skills_tag: "Technical Stack",
@@ -178,9 +186,11 @@ const translations = {
     ref_1_name: "Dr. Mhd Ziwar Al Nouri",
     ref_1_title: "Founder and Executive Director",
     ref_1_org: "Reparametrize Foundation",
+    ref_1_desc: "Directly supervised Ward's technical leadership in the IT & AI Department and his keynote at the Recovery Pathways conference, officially endorsing him in the institutional recommendation letter.",
     ref_2_name: "Mr. Saria Habbab",
     ref_2_title: "Technical Lead & CEO",
     ref_2_org: "HabApps",
+    ref_2_desc: "Supervised Ward's leadership of backend architecture, MySQL databases, and cloud servers for the Kozee real estate platform at HabApps.",
     ref_phone_lbl: "Phone",
     ref_email_lbl: "Email",
 
@@ -219,7 +229,8 @@ const translations = {
     modal_rec_btn_en: "English Original",
     modal_rec_btn_ar: "Arabic Translation",
     modal_rec_dl_pdf: "Download Original Signed PDF",
-    modal_close: "Close"
+    modal_close: "Close",
+    modal_proj_title: "Project Architecture & Details"
   },
 
   ar: {
@@ -279,9 +290,17 @@ const translations = {
     about_desc: "الجمع بين الأسس الأكاديمية لهندسة البرمجيات والخبرة العملية في بناء بنى تحتية رقمية متينة وقابلة للتوسع.",
     about_p1: "أنا مهندس برمجيات متخرج من جامعة دمشق (2019 – 2024)، متخصص في هندسة وتطوير الأنظمة الخلفية (Backend) بالاعتماد على إطار العمل Laravel وقواعد البيانات العلائقية الحديثة. أركز بشكل أساسي على بناء أنظمة نظيفة، قابلة للصيانة، وتتحمل الضغط العالي مع قابلية التطوير المستقبلي.",
     about_p2: "من خلال خبرتي في شركات مثل HabApps و Nuhieh والعمل الحر، إلى جانب دوري القيادي في منصة أبحاث Reparametrize، قمت بتصميم وتطوير واجهات برمجة التطبيقات RESTful APIs، ونقاط GraphQL، والاتصالات اللحظية عبر WebSockets، وخطوط الإنتاج والتسليم المستمر CI/CD، وأنظمة المحافظ والمعاملات المالية.",
+    about_meta_languages_title: "اللغات",
+    about_meta_languages_val: "العربية (اللغة الأم) | الإنجليزية (ممتاز)",
+    about_meta_spec_title: "التخصص",
     about_degree_title: "إجازة في هندسة البرمجيات",
     about_degree_sub: "جامعة دمشق (2019 – 2024)",
     about_degree_desc: "دراسة شاملة للخوارزميات، هياكل البيانات، هندسة البرمجيات، إدارة قواعد البيانات، النظم الموزعة، وأمن الشبكات.",
+    about_bullet_1: "هندسة وتصميم المعماريات البرمجية (Software Architecture & Clean Code)",
+    about_bullet_2: "تصميم وتطبيع قواعد البيانات وتحسين الاستعلامات (Database Normalization & SQL)",
+    about_bullet_3: "أنماط التصميم ومبادئ SOLID (Design Patterns & SOLID Principles)",
+    about_org_title: "المنظمات والأنشطة:",
+    about_org_val: "عضو في الغرفة الفتية الدولية بدمشق (JCI Damascus)",
 
     // Skills Section
     skills_tag: "المهارات والتقنيات",
@@ -396,9 +415,11 @@ const translations = {
     ref_1_name: "م. محمد زوار النوري",
     ref_1_title: "المؤسس والمدير التنفيذي",
     ref_1_org: "مؤسسة ريبارامتريز (Reparametrize Foundation)",
+    ref_1_desc: "أشرف بشكل مباشر على قيادة ورد في قسم تقانة المعلومات والذكاء الاصطناعي، ومحاضرته في مؤتمر مسارات التعافي، وأوصى به رسمياً في خطاب التوصية المؤسسي.",
     ref_2_name: "أ. سارية حباب",
     ref_2_title: "المدير التقني والتنفيذي",
     ref_2_org: "شركة HabApps",
+    ref_2_desc: "أشرف على قيادة ورد لأنظمة الباك إند وقواعد بيانات MySQL والسيرفرات لتطبيق Kozee العقاري في HabApps.",
     ref_phone_lbl: "الهاتف",
     ref_email_lbl: "البريد الإلكتروني",
 
@@ -437,7 +458,8 @@ const translations = {
     modal_rec_btn_en: "النص الإنجليزي الأصلي",
     modal_rec_btn_ar: "الترجمة العربية المعتمدة",
     modal_rec_dl_pdf: "تحميل ملف التوصية الموقع (PDF)",
-    modal_close: "إغلاق"
+    modal_close: "إغلاق",
+    modal_proj_title: "تفاصيل المشروع والمعمارية"
   }
 };
 
@@ -552,6 +574,9 @@ function initLanguage(lang) {
   localStorage.setItem('ward_portfolio_lang', lang);
   document.documentElement.setAttribute('lang', lang);
   document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  document.title = lang === 'ar'
+    ? "ورد الشاهين | Ward Alshaheen - مطور لارافيل ومهندس برمجيات"
+    : "Ward Alshaheen | Laravel Developer & Software Engineer";
 
   // Update text elements with data-i18n
   document.querySelectorAll('[data-i18n]').forEach(el => {
