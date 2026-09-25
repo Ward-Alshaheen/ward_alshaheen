@@ -124,7 +124,7 @@ const translations = {
     btn_view_details: "View Architecture & Details",
 
     // Project 1: Kozee
-    proj_kozee_title: "Kozee Real Estate Platform",
+    proj_kozee_title: "Kozee",
     proj_kozee_cat: "Enterprise & Mobile APIs",
     proj_kozee_desc: "A comprehensive real estate ecosystem featuring smart geo-location map exploration, short-form video reels, and high-performance property query caching.",
     proj_kozee_b1: "Designed and scaled RESTful APIs and database schemas for thousands of active properties.",
@@ -132,7 +132,7 @@ const translations = {
     proj_kozee_b3: "Optimized MySQL indexing and managed server-side infrastructure.",
 
     // Project 2: Nuhieh
-    proj_nuhieh_title: "Nuhieh Hybrid Learning Platform",
+    proj_nuhieh_title: "Nuhieh",
     proj_nuhieh_cat: "EdTech Platform",
     proj_nuhieh_desc: "Hybrid educational management platform synchronizing self-paced digital modules with in-classroom learning for administrators, teachers, parents, and students.",
     proj_nuhieh_b1: "Architected multi-tier RBAC (Role-Based Access Control) supporting 4 distinct user personas.",
@@ -140,7 +140,7 @@ const translations = {
     proj_nuhieh_b3: "Followed Clean Architecture principles ensuring modularity and rapid test coverage.",
 
     // Project 3: Dream Shop
-    proj_dream_title: "Dream Shop Multi-User E-Commerce",
+    proj_dream_title: "Dream Shop",
     proj_dream_cat: "E-Commerce & Mobile",
     proj_dream_desc: "Scalable multi-user e-commerce mobile application platform empowering merchants to list, manage inventory, and sell products with secure order processing.",
     proj_dream_b1: "Engineered high-performance RESTful APIs for shopping cart, catalog filtering, and multi-tier checkout.",
@@ -148,7 +148,7 @@ const translations = {
     proj_dream_b3: "Architected relational database with atomic transaction integrity.",
 
     // Project 4: Care Me
-    proj_care_title: "Care Me Healthcare & Clinic Suite",
+    proj_care_title: "Care Me",
     proj_care_cat: "Healthcare & Real-time",
     proj_care_desc: "Modern clinic management application featuring real-time patient-doctor communication, appointment booking, and GraphQL queries for flexible data fetching.",
     proj_care_b1: "Built WebSocket real-time live chat and instantaneous push notifications.",
@@ -156,7 +156,7 @@ const translations = {
     proj_care_b3: "Designed appointment calendar scheduling with conflict-prevention locking.",
 
     // Project 5: AdVance
-    proj_advance_title: "AdVance Advertising Marketplace",
+    proj_advance_title: "AdVance",
     proj_advance_cat: "FinTech & AdTech",
     proj_advance_desc: "Digital marketplace connecting advertisers looking to run campaigns with host applications seeking to monetize ad inventory.",
     proj_advance_b1: "Architected digital wallet infrastructure handling internal credit transactions and balances.",
@@ -164,7 +164,7 @@ const translations = {
     proj_advance_b3: "Implemented fraud prevention mechanisms and real-time impression analytics.",
 
     // Project 6: BriefCode
-    proj_brief_title: "BriefCode Low-Code Engine",
+    proj_brief_title: "BriefCode",
     proj_brief_cat: "System Architecture",
     proj_brief_desc: "Low-code application development platform designed for mobile software creation with aspect-oriented programming and compiler parsing mechanics.",
     proj_brief_b1: "Applied Aspect-Oriented Programming (AOP) for clean separation of cross-cutting concerns.",
@@ -172,7 +172,7 @@ const translations = {
     proj_brief_b3: "Utilized Advanced Design Patterns (Repository, Façade, Factory, Strategy).",
 
     // Project 7: Mosaic Recoding Syria
-    proj_reparam_title: "Mosaic Recoding Syria Platform",
+    proj_reparam_title: "Mosaic Recoding Syria",
     proj_reparam_cat: "AI & Scientific Research",
     proj_reparam_desc: "Open-source scientific research initiative by Reparametrize Foundation utilizing AI-driven data processing for post-crisis smart city reconstruction.",
     proj_reparam_b1: "Built scalable Laravel APIs integrating AI analysis pipelines on urban social and economic structures.",
@@ -237,188 +237,188 @@ const translations = {
     // Nav
     nav_home: "الرئيسية",
     nav_about: "من أنا",
-    nav_recommendation: "التوصية",
+    nav_recommendation: "التوصية الرسمية",
     nav_skills: "المهارات",
     nav_experience: "الخبرات",
     nav_projects: "المشاريع",
-    nav_references: "المعرفون",
-    nav_contact: "تواصل",
-    nav_download_cv: "الـ CV",
+    nav_references: "المعرّفون",
+    nav_contact: "تواصل معي",
+    nav_download_cv: "السيرة الذاتية (CV)",
 
     // Hero
-    hero_available: "متاح لفرص العمل الجديدة والمشاريع البرمجية",
+    hero_available: "متاح للفرص الوظيفية الجديدة والمشاريع البرمجية",
     hero_greeting: "مرحباً، أنا",
     hero_name: "ورد الشاهين",
-    hero_role: "مطور لارافيل ومهندس برمجيات",
-    hero_desc: "خريج هندسة البرمجيات من جامعة دمشق بخبرة متقدمة في تطوير الأنظمة الخلفية (Back-End) باستخدام Laravel. شغوف ببناء تطبيقات قابلة للتوسع، عالية الكفاءة والأمان. ملتزم بالمعمارية النظيفة (Clean Architecture) وأعلى معايير جودة الكود لتحقيق أفضل النتائج التقنية والتجارية.",
+    hero_role: "مهندس برمجيات ومطور Laravel",
+    hero_desc: "مهندس برمجيات متخرج من جامعة دمشق، متخصص في تطوير الأنظمة الخلفية (Backend) وهندسة البنى التحتية البرمجية باستخدام Laravel. شغوف ببناء تطبيقات عالية الأداء، قابلة للتوسع، ومحمية بأعلى معايير الأمان. ملتزم بنهج المعمارية النظيفة (Clean Architecture) ومبادئ SOLID لتقديم كود هندسي موثوق يحقق أهداف الأعمال بدقة.",
     hero_btn_projects: "استعراض المشاريع",
-    hero_btn_rec: "عرض التوصية",
+    hero_btn_rec: "عرض خطاب التوصية",
     hero_btn_cv: "تحميل السيرة الذاتية (CV)",
     hero_btn_contact: "تواصل معي مباشرة",
 
     // Stats
     stat_exp_val: "+4",
-    stat_exp_lbl: "سنوات هندسة وبرمجة",
+    stat_exp_lbl: "سنوات في هندسة وتطوير البرمجيات",
     stat_proj_val: "+7",
-    stat_proj_lbl: "مشاريع وأنظمة متكاملة",
+    stat_proj_lbl: "مشاريع وأنظمة برمجية متكاملة",
     stat_hours_val: "+208",
-    stat_hours_lbl: "ساعة بحث وتطوع علمي",
+    stat_hours_lbl: "ساعة بحث وتطوير علمي تطوعي",
     stat_arch_val: "100%",
-    stat_arch_lbl: "معمارية نظيفة وواجهات قوية",
+    stat_arch_lbl: "معمارية برمجية نظيفة وواجهات APIs قابلة للتوسع",
 
     // Recommendation Spotlight
     rec_tag: "توصية واعتماد مؤسسي",
     rec_title: "خطاب التوصية المهنية",
-    rec_subtitle: "توصية رسمية من مؤسسة ريبارامتريز (Reparametrize Foundation - مشهرة برقم 2246 بوزارة الشؤون الاجتماعية والعمل)",
-    rec_badge: "توصية مؤسسية موثقة",
-    rec_quote: "«أظهر ورد خبرة تقنية والتزاماً استثنائيين خلال فترة عمله في منصة ريبارامتريز للأبحاث، مقدماً باستمرار حلولاً خلفية قابلة للتوسع وعالية الجودة. وبصفته قائداً تقنياً أول (Senior Leader)، قام ورد بتحليل مجموعات البيانات المعقدة، وترجمة النتائج التقنية إلى مخرجات عملية قابلة للتنفيذ، وضمان التنفيذ الفعال عبر الأنظمة وسير العمل بكل دقة واقتدار. لقد كان ورد الشاهين مكسباً حقيقياً لمؤسستنا وترك أثراً دائماً من خلال تفانيه وخبرته.»",
+    rec_subtitle: "توصية رسمية موثقة من Reparametrize Foundation (مشهرة برقم 2246 لدى وزارة الشؤون الاجتماعية والعمل)",
+    rec_badge: "توصية مؤسسية معتمدة وموثقة",
+    rec_quote: "«أظهر ورد خبرة تقنية والتزاماً استثنائيين خلال فترة عمله في منصة أبحاث Reparametrize، مقدماً باستمرار حلولاً خلفية قابلة للتوسع وعالية الجودة. وبصفته Senior Leader، تولى ورد تحليل مجموعات البيانات المعقدة، وترجمة المخرجات التقنية إلى حلول عملية قابلة للتنفيذ، مع ضمان تكامل الأنظمة ومسارات العمل بكل دقة واقتدار. لقد كان ورد الشاهين إضافة نوعية لمؤسستنا وترك أثراً دائماً بتفانيه وخبرته الهندسية.»",
     rec_stat_1_val: "+208 ساعات",
-    rec_stat_1_lbl: "ساعات تطوع وبحث وتطوير في قسم تقانة المعلومات والذكاء الاصطناعي",
-    rec_stat_2_val: "قائد فريق أول",
-    rec_stat_2_lbl: "ترقية في وقت قياسي من باحث مبتدئ إلى Senior Leader",
-    rec_stat_3_val: "محاضر رئيسي",
-    rec_stat_3_lbl: "إلقاء محاضرة عامة حول دور الذكاء الاصطناعي في إعادة إعمار المدن",
-    rec_btn_full: "قراءة خطاب التوصية الكامل",
-    rec_btn_pdf: "فتح ملف الـ PDF المعتمد",
+    rec_stat_1_lbl: "ساعات بحث وتطوير تطوعية في قسم IT & AI",
+    rec_stat_2_val: "Senior Leader",
+    rec_stat_2_lbl: "ترقية في وقت قياسي من باحث مبتدئ إلى قائد فريق تقني أول",
+    rec_stat_3_val: "متحدث رئيسي",
+    rec_stat_3_lbl: "إلقاء محاضرة علمية حول دور الذكاء الاصطناعي في إعادة إعمار المدن",
+    rec_btn_full: "قراءة خطاب التوصية كاملاً",
+    rec_btn_pdf: "فتح وثيقة PDF الرسمية المعتمدة",
     rec_author_name: "م. محمد زوار النوري (M.Arch, مرشح دكتوراه)",
     rec_author_title: "المؤسس والمدير التنفيذي",
-    rec_author_org: "مؤسسة ريبارامتريز (Reparametrize Foundation)",
+    rec_author_org: "Reparametrize Foundation",
 
     // About Section
-    about_tag: "نبذة عني",
+    about_tag: "نبذة تعريفية",
     about_title: "من هو ورد الشاهين؟",
-    about_desc: "الجمع بين الأسس الأكاديمية لهندسة البرمجيات والخبرة العملية في بناء بنى تحتية رقمية متينة وقابلة للتوسع.",
-    about_p1: "أنا مهندس برمجيات متخرج من جامعة دمشق (2019 – 2024)، متخصص في هندسة وتطوير الأنظمة الخلفية (Backend) بالاعتماد على إطار العمل Laravel وقواعد البيانات العلائقية الحديثة. أركز بشكل أساسي على بناء أنظمة نظيفة، قابلة للصيانة، وتتحمل الضغط العالي مع قابلية التطوير المستقبلي.",
-    about_p2: "من خلال خبرتي في شركات مثل HabApps و Nuhieh والعمل الحر، إلى جانب دوري القيادي في منصة أبحاث Reparametrize، قمت بتصميم وتطوير واجهات برمجة التطبيقات RESTful APIs، ونقاط GraphQL، والاتصالات اللحظية عبر WebSockets، وخطوط الإنتاج والتسليم المستمر CI/CD، وأنظمة المحافظ والمعاملات المالية.",
+    about_desc: "الجمع بين الأسس الأكاديمية الراسخة لهندسة البرمجيات والخبرة العملية في بناء وتطوير بنى تحتية رقمية متينة وقابلة للتوسع.",
+    about_p1: "مهندس برمجيات متخرج من جامعة دمشق (2019 – 2024)، متخصص في هندسة وتطوير الأنظمة الخلفية (Backend) بالاعتماد على إطار العمل Laravel وقواعد البيانات العلائقية الحديثة. ينصب تركيزي الهندسي على تصميم معماريات برمجية نظيفة، قابلة للصيانة، وقادرة على استيعاب معدلات الضغط والنمو العالي مع استدامة الكود البرمجي.",
+    about_p2: "من خلال خبرتي المهنية في HabApps و Nuhieh والعمل المستقل، إلى جانب دوري القيادي في منصة أبحاث Reparametrize، توليت تصميم وبناء واجهات برمجة التطبيقات RESTful APIs، ونقاط استعلام GraphQL، والاتصالات اللحظية عبر WebSockets، إضافة إلى أتمتة خطوط الإنتاج والتسليم المستمر CI/CD، وهندسة المعاملات المالية والمحافظ الرقمية.",
     about_meta_languages_title: "اللغات",
-    about_meta_languages_val: "العربية (اللغة الأم) | الإنجليزية (ممتاز)",
-    about_meta_spec_title: "التخصص",
+    about_meta_languages_val: "العربية (اللغة الأم) | الإنجليزية (إتقان تام)",
+    about_meta_spec_title: "التخصص التقني",
     about_degree_title: "إجازة في هندسة البرمجيات",
     about_degree_sub: "جامعة دمشق (2019 – 2024)",
-    about_degree_desc: "دراسة شاملة للخوارزميات، هياكل البيانات، هندسة البرمجيات، إدارة قواعد البيانات، النظم الموزعة، وأمن الشبكات.",
-    about_bullet_1: "هندسة وتصميم المعماريات البرمجية (Software Architecture & Clean Code)",
+    about_degree_desc: "دراسة أكاديمية متعمقة في الخوارزميات، هياكل البيانات، هندسة البرمجيات، إدارة قواعد البيانات، النظم الموزعة، وأمن الشبكات والمعلومات.",
+    about_bullet_1: "هندسة وتصميم المعماريات البرمجية (Clean Architecture & Clean Code)",
     about_bullet_2: "تصميم وتطبيع قواعد البيانات وتحسين الاستعلامات (Database Normalization & SQL)",
-    about_bullet_3: "أنماط التصميم ومبادئ SOLID (Design Patterns & SOLID Principles)",
+    about_bullet_3: "تطبيق أنماط التصميم ومبادئ SOLID (Design Patterns & SOLID Principles)",
     about_org_title: "المنظمات والأنشطة:",
-    about_org_val: "عضو في الغرفة الفتية الدولية بدمشق (JCI Damascus)",
+    about_org_val: "عضو فاعل في JCI Damascus (الغرفة الفتية الدولية)",
 
     // Skills Section
     skills_tag: "المهارات والتقنيات",
-    skills_title: "الترسانة التقنية والأدوات",
-    skills_desc: "مجموعة أدوات احترافية متكاملة تهدف إلى كتابة كود نظيف وتطوير أنظمة خلفية عالية الاعتمادية.",
-    skill_cat_backend: "الباك إند واللغات الأساسية",
-    skill_cat_arch: "المعمارية وأنماط التصميم",
-    skill_cat_db: "قواعد البيانات والاتصال اللحظي",
-    skill_cat_devops: "الـ DevOps، الأدوات وضمان الجودة",
+    skills_title: "الترسانة التقنية والأدوات الهندسية",
+    skills_desc: "منظومة أدوات هندسية متكاملة تهدف إلى صياغة كود نظيف وتطوير أنظمة خلفية عالية الموثوقية والأداء.",
+    skill_cat_backend: "الأنظمة الخلفية واللغات (Backend & Core)",
+    skill_cat_arch: "المعمارية وأنماط التصميم (Architecture & Patterns)",
+    skill_cat_db: "قواعد البيانات والاتصال اللحظي (Databases & Real-Time)",
+    skill_cat_devops: "الـ DevOps، الأدوات وضمان الجودة (DevOps & Quality)",
 
     // Experience Section
     exp_tag: "المسار المهني",
     exp_title: "الخبرات والمسؤوليات التقنية",
-    exp_desc: "تطوير أنظمة واقعية في قطاعات التعليم الإلكتروني، العقارات، البحث العلمي، والمشاريع البرمجية.",
-    exp_role_1: "مطور أنظمة خلفية (Back-end Developer)",
-    exp_comp_1: "منصة نُحيه (Nuhieh)",
+    exp_desc: "تطوير أنظمة برمجية في قطاعات تكنولوجيا التعليم، العقارات، الأبحاث العلمية، والأنظمة المؤسسية.",
+    exp_role_1: "مطور أنظمة خلفية (Backend Developer)",
+    exp_comp_1: "Nuhieh",
     exp_date_1: "يوليو 2026 – أغسطس 2026",
-    exp_desc_1: "قيادة تطوير الباك إند لمنصة مدرسية إلكترونية هجينة تجمع بين التعليم الذاتي والتعليم الصفي. تصميم قواعد البيانات، التخطيط المعماري للنظام، وبناء واجهات برمجية لربط الإداريين والمعلمين وأولياء الأمور والطلاب مع أدوات إدارة الحصص والجداول والتقييمات والواجبات.",
+    exp_desc_1: "قيادة تطوير الأنظمة الخلفية لمنصة تعليمية هجينة تجمع بين التعليم الذاتي الرقمي والتعليم الصفي المباشر. تصميم قواعد البيانات والمعمارية العامة للنظام، وبناء واجهات برمجية لربط الإداريين والمعلمين وأولياء الأمور والطلاب مع أدوات إدارة الحصص والجداول والتقييمات والواجبات.",
 
-    exp_role_2: "مطور لارافيل بدوام كامل (Full-time Laravel Developer)",
-    exp_comp_2: "شركة HabApps",
+    exp_role_2: "مطور Laravel متفرغ (Full-Time Laravel Developer)",
+    exp_comp_2: "HabApps",
     exp_date_2: "فبراير 2026 – يوليو 2026",
-    exp_desc_2: "قائد الأنظمة الخلفية وقواعد البيانات والسيرفرات لتطبيق Kozee العقاري. بناء واجهات RESTful APIs عالية الكفاءة، تحسين استعلامات MySQL المعقدة، إدارة البنية التحتية للخوادم، وتطوير خاصية الاستكشاف عبر الخرائط وموجز فيديوهات الريلز العقارية.",
+    exp_desc_2: "قيادة هندسة الأنظمة الخلفية وقواعد البيانات والسيرفرات لتطبيق Kozee العقاري. بناء واجهات RESTful APIs عالية الكفاءة، تحسين استعلامات MySQL المعقدة، إدارة البنية التحتية للخوادم، وتطوير خاصية الاستكشاف الجغرافي وموجز فيديوهات الريلز العقارية.",
 
-    exp_role_3: "قائد فريق تقني أول ومطور باك إند (تطوع علمي)",
-    exp_comp_3: "منصة ريبارامتريز للأبحاث (Reparametrize)",
+    exp_role_3: "قائد فريق تقني أول ومطور أنظمة خلفية (تطوع علمي)",
+    exp_comp_3: "Reparametrize Research Platform",
     exp_date_3: "يوليو 2025 – حتى الآن",
-    exp_desc_3: "المساهمة في منصة أبحاث علمية مفتوحة المصدر لتطوير المدن الذكية في مرحلة ما بعد الأزمات. بناء واجهات برمجية قابلة للتوسع وأدوات لمعالجة البيانات مدعومة بالذكاء الاصطناعي لتحليل الهياكل الحضرية. الترقية لقيادة الفريق وتقديم محاضرة عامة في فعالية مسارات التعافي.",
+    exp_desc_3: "المساهمة في منصة أبحاث علمية مفتوحة المصدر لتطوير المدن الذكية في مرحلة ما بعد الأزمات. بناء واجهات برمجية قابلة للتوسع وأدوات معالجة بيانات مدعومة بالذكاء الاصطناعي لتحليل الهياكل الحضرية. الترقية السريعة لقيادة الفريق وتقديم محاضرة عامة في مؤتمر مسارات التعافي (Recovery Pathways).",
 
-    exp_role_4: "مطور لارافيل مستقل (Freelance Laravel Developer)",
-    exp_comp_4: "شركة Dotnokta",
+    exp_role_4: "مطور Laravel مستقل (Freelance Laravel Developer)",
+    exp_comp_4: "Dotnokta",
     exp_date_4: "أغسطس 2023 – أبريل 2024",
-    exp_desc_4: "تطوير وصيانة مشاريع متكاملة باستخدام Laravel وفق مبادئ المعمارية النظيفة (Clean Architecture). تقديم الاستشارات التقنية والحلول البرمجية بالتعاون مع فريق العمل.",
+    exp_desc_4: "تطوير وصيانة مشاريع وتطبيقات ويب متكاملة باستخدام Laravel وفق مبادئ المعمارية النظيفة (Clean Architecture). تقديم الاستشارات التقنية والحلول الهندسية بالتعاون مع فريق التطوير.",
 
-    exp_role_5: "عضو نشط",
-    exp_comp_5: "الغرفة الفتية الدولية بدمشق (JCI Damascus)",
+    exp_role_5: "عضو فاعل (Active Member)",
+    exp_comp_5: "JCI Damascus",
     exp_date_5: "أبريل 2026 – حتى الآن",
-    exp_desc_5: "المشاركة الفعالة في مبادرات التعاون الدولي، ريادة الأعمال، تنمية المجتمع، وتطوير المهارات القيادية.",
+    exp_desc_5: "المشاركة الفعالة في مبادرات التعاون الدولي، ريادة الأعمال، تنمية المجتمع، وصقل المهارات القيادية وإدارة المشاريع.",
 
     // Projects Section
     proj_tag: "معرض الأعمال",
     proj_title: "المشاريع والأنظمة المنفذة",
-    proj_desc: "مجموعة مختارة من البنى التحتية والتطبيقات المتكاملة التي صممتها ونفذتها وفق أعلى المعايير الهندسية.",
+    proj_desc: "مختارات من البنى التحتية البرمجية والأنظمة المتكاملة التي صممتها ونفذتها وفق أعلى المعايير الهندسية.",
     filter_all: "كافة المشاريع",
-    filter_backend: "أنظمة الباك إند و APIs",
+    filter_backend: "الأنظمة الخلفية و APIs",
     filter_platforms: "المنصات والتعليم",
     filter_realtime: "الزمن الحقيقي والمالية",
     filter_research: "الذكاء الاصطناعي والأبحاث",
 
-    btn_view_details: "عرض تفاصيل البنية والميزات",
+    btn_view_details: "عرض التفاصيل والمعمارية البرمجية",
 
     // Project 1: Kozee
-    proj_kozee_title: "منصة كوزي العقارية (Kozee)",
-    proj_kozee_cat: "تطبيقات مؤسسية & APIs",
-    proj_kozee_desc: "منصة عقارية متكاملة تتيح استكشاف العقارات عبر الخرائط الذكية، وفيديوهات الريلز القصيرة، ونظام كاش متطور لسرعة الاستعلامات.",
-    proj_kozee_b1: "تصميم وبناء واجهات RESTful APIs وقواعد بيانات تخدم آلاف العقارات والوسطاء.",
-    proj_kozee_b2: "تطبيق خوارزميات الاستكشاف الجغرافي ونظام الريلز لربط أصحاب العقارات والعملاء.",
-    proj_kozee_b3: "تحسين فهارس MySQL وإدارة بنية الخوادم لضمان أداء مستقر وسريع.",
+    proj_kozee_title: "Kozee",
+    proj_kozee_cat: "تطبيقات مؤسسية وواجهات APIs",
+    proj_kozee_desc: "منصة عقارية متكاملة تتيح استكشاف العقارات عبر الخرائط التفاعلية الذكية، وفيديوهات الريلز القصيرة، ونظام Caching متطور لسرعة الاستعلامات.",
+    proj_kozee_b1: "تصميم وهندسة واجهات RESTful APIs وقواعد بيانات تخدم آلاف العقارات والوسطاء.",
+    proj_kozee_b2: "تطوير خوارزميات الاستكشاف الجغرافي ونظام الريلز لربط أصحاب العقارات والعملاء.",
+    proj_kozee_b3: "تحسين فهارس MySQL وإدارة بنية الخوادم لضمان أداء مستقر وعالي الموثوقية.",
 
     // Project 2: Nuhieh
-    proj_nuhieh_title: "منصة نُحيه التعليمية الهجينة",
-    proj_nuhieh_cat: "تكنولوجيا التعليم (EdTech)",
-    proj_nuhieh_desc: "نظام تعليمي هجين يوفق بين التعلم الذاتي الرقمي والتعليم داخل الفصول، ويخدم 4 فئات: الإدارة، المعلمين، الأهالي، والطلاب.",
-    proj_nuhieh_b1: "هندسة نظام أذونات متعدد المستويات (RBAC) يدير أربع صلاحيات مختلفة بدقة وأمان.",
-    proj_nuhieh_b2: "بناء أدوات الجداول الدراسية التفاعلية، حساب الدرجات الآلي، ورفع الواجبات.",
-    proj_nuhieh_b3: "تطبيق المعمارية النظيفة لضمان سهولة الفحص والاختبارات والتوسع المستقبلي.",
+    proj_nuhieh_title: "Nuhieh",
+    proj_nuhieh_cat: "تكنولوجيا التعليم (EdTech Platform)",
+    proj_nuhieh_desc: "منصة تعليمية هجينة توفق بين التعلم الذاتي الرقمي والتعليم الصفي المباشر، وتخدم 4 فئات: الإدارة، المعلمين، الأهالي، والطلاب.",
+    proj_nuhieh_b1: "هندسة نظام أذونات وصلاحيات متعدد المستويات (RBAC) يخدم 4 فئات مستخدمين بأمان تام.",
+    proj_nuhieh_b2: "بناء أدوات الجداول الدراسية التفاعلية، حساب الدرجات الآلي، ونظام رفع الواجبات.",
+    proj_nuhieh_b3: "تطبيق المعمارية النظيفة (Clean Architecture) لضمان سهولة الفحص والاختبارات والتوسع المستقبلي.",
 
     // Project 3: Dream Shop
-    proj_dream_title: "منصة دريم شوب (Dream Shop)",
+    proj_dream_title: "Dream Shop",
     proj_dream_cat: "تجارة إلكترونية متعددة التجار",
-    proj_dream_desc: "تطبيق هاتف متكامل للتجارة الإلكترونية يتيح لعدة بائعين عرض منتجاتهم، مع سلة شراء متطورة ونظام معالجة طلبات آمن.",
-    proj_dream_b1: "هندسة واجهات RESTful APIs عالية الأداء لإدارة السلة والفلترة والطلبات.",
-    proj_dream_b2: "نظام مصادقة وتفويض دقيق يفصل بين حسابات المشترين والتجار ومديري النظام.",
-    proj_dream_b3: "تصميم قاعدة بيانات علائقية متماسكة تحافظ على سلامة العمليات المالية والطلبات.",
+    proj_dream_desc: "تطبيق متكامل للتجارة الإلكترونية يتيح لعدة بائعين إدارة منتجاتهم، مع سلة تسوق متطورة ونظام معالجة طلبات آمن.",
+    proj_dream_b1: "هندسة واجهات RESTful APIs عالية الأداء لإدارة السلة والفلترة والطلبات والمدفوعات.",
+    proj_dream_b2: "نظام مصادقة وتفويض دقيق يفصل بين صلاحيات المشترين والتجار ومديري النظام.",
+    proj_dream_b3: "تصميم قاعدة بيانات علائقية متماسكة تحافظ على اتساق العمليات المالية والطلبات (Atomic Transactions).",
 
     // Project 4: Care Me
-    proj_care_title: "نظام كير مي لإدارة العيادات (Care Me)",
-    proj_care_cat: "الرعاية الصحية والزمن الحقيقي",
-    proj_care_desc: "تطبيق ذكي لإدارة العيادات الطبية يتيح التواصل اللحظي بين الطبيب والمريض، حجز المواعيد، وواجهة استعلام مرنة عبر GraphQL.",
+    proj_care_title: "Care Me",
+    proj_care_cat: "الرعاية الصحية والاتصال اللحظي",
+    proj_care_desc: "تطبيق ذكي لإدارة العيادات والمراكز الطبية يتيح التواصل اللحظي بين الطبيب والمريض، حجز المواعيد، وواجهة استعلام مرنة عبر GraphQL.",
     proj_care_b1: "محادثة فورية مباشرة عبر WebSockets وإشعارات لحظية للرسائل والمواعيد.",
     proj_care_b2: "دمج واجهات GraphQL بجانب REST لتوفير استعلامات مرنة وسريعة للسجلات الطبية.",
-    proj_care_b3: "نظام جدولة مواعيد دقيق يمنع التعارض ويدير أوقات الكشف بسلاسة.",
+    proj_care_b3: "نظام جدولة مواعيد دقيق يمنع التعارض ويدير أوقات الكشف بسلاسة عبر تقنيات القفل (Locking).",
 
     // Project 5: AdVance
-    proj_advance_title: "منصة آد فانس الإعلانية (AdVance)",
-    proj_advance_cat: "التكنولوجيا المالية والإعلانية",
-    proj_advance_desc: "سوق رقمي يربط بين المعلنين الراغبين بنشر حملاتهم والتطبيقات المستضيفة الراغبة في تحقيق عوائد بعرض الإعلانات.",
+    proj_advance_title: "AdVance",
+    proj_advance_cat: "التكنولوجيا المالية والإعلانية (FinTech & AdTech)",
+    proj_advance_desc: "سوق رقمي يربط بين المعلنين الراغبين بنشر حملاتهم والتطبيقات المستضيفة الساعية لتحقيق عوائد من عرض الإعلانات.",
     proj_advance_b1: "بناء بنية محفظة رقمية متكاملة لإدارة الأرصدة والتحويلات المالية داخل المنصة.",
-    proj_advance_b2: "تصميم سجل مالي محاسبي دقيق وقابل للتدقيق لضمان سلامة العمليات.",
-    proj_advance_b3: "تحليل المشاهدات في الوقت الفعلي وأنظمة لمنع التلاعب والنقرات الوهمية.",
+    proj_advance_b2: "تصميم سجل محاسبي بالقيد المزدوج (Double-Entry Ledger) غير قابل للتلاعب لضمان سلامة العمليات.",
+    proj_advance_b3: "تحليل المشاهدات في الوقت الفعلي وتطبيق أنظمة كشف ومنع التلاعب والنقرات الوهمية.",
 
     // Project 6: BriefCode
-    proj_brief_title: "بيئة بريف كود (BriefCode Low-Code)",
+    proj_brief_title: "BriefCode",
     proj_brief_cat: "معمارية الأنظمة والمترجمات",
-    proj_brief_desc: "بيئة تطوير برمجيات منخفضة الكود (Low-Code) لتطبيقات الهواتف تعتمد على البرمجة موجهة الجوانب وتقنيات المترجمات.",
-    proj_brief_b1: "تطبيق البرمجة موجهة الجوانب (AOP) لفصل الاهتمامات المشتركة عبر النظام.",
+    proj_brief_desc: "بيئة تطوير برمجيات منخفضة الكود (Low-Code) لتطبيقات الهواتف تعتمد على البرمجة موجهة الجوانب (AOP) وتقنيات المترجمات.",
+    proj_brief_b1: "تطبيق البرمجة موجهة الجوانب (AOP) لفصل الاهتمامات المشتركة عبر النظام بنظافة.",
     proj_brief_b2: "خوارزميات إدارة التنافس على الموارد وتحليل شجرة النحو المجردة (AST Parsing).",
-    proj_brief_b3: "استخدام أنماط التصميم المتقدمة (Repository, Façade, Factory, Strategy).",
+    proj_brief_b3: "توظيف أنماط التصميم المتقدمة (Repository, Façade, Factory, Strategy).",
 
     // Project 7: Mosaic Recoding Syria
-    proj_reparam_title: "منصة موزاييك لإعادة تسجيل سوريا",
+    proj_reparam_title: "Mosaic Recoding Syria",
     proj_reparam_cat: "الذكاء الاصطناعي والأبحاث",
-    proj_reparam_desc: "مبادرة علمية مفتوحة المصدر لمؤسسة ريبارامتريز لتوظيف الذكاء الاصطناعي ومعالجة البيانات في التخطيط الحضري بعد الأزمات.",
+    proj_reparam_desc: "مبادرة علمية مفتوحة المصدر من Reparametrize Foundation لتوظيف الذكاء الاصطناعي وتحليل البيانات في التخطيط الحضري لمرحلة ما بعد الأزمات.",
     proj_reparam_b1: "تطوير واجهات Laravel متقدمة تتكامل مع نماذج الذكاء الاصطناعي لتحليل البيانات الحضرية.",
     proj_reparam_b2: "المساهمة بأكثر من 208 ساعة بحثية والترقية السريعة لقيادة الفريق التقني.",
-    proj_reparam_b3: "تقديم محاضرة علمية رسمية في مؤتمر إطلاق قاعدة البيانات المفتوحة بمشروع مسارات التعافي.",
+    proj_reparam_b3: "تقديم محاضرة علمية رسمية في مؤتمر إطلاق قاعدة البيانات المفتوحة بمشروع مسارات التعافي (Recovery Pathways).",
 
     // References Section
-    ref_tag: "المعرفون المهنيون",
+    ref_tag: "المعرّفون المهنيون",
     ref_title: "المراجع والتوصيات المباشرة",
-    ref_desc: "شخصيات مهنية وأكاديمية يمكن التواصل معها للتحقق من الكفاءة التقنية والتفاني في العمل.",
+    ref_desc: "شخصيات مهنية وأكاديمية يمكن التواصل معها مباشرة للتحقق من الكفاءة التقنية والتفاني في العمل.",
     ref_1_name: "م. محمد زوار النوري",
     ref_1_title: "المؤسس والمدير التنفيذي",
-    ref_1_org: "مؤسسة ريبارامتريز (Reparametrize Foundation)",
-    ref_1_desc: "أشرف بشكل مباشر على قيادة ورد في قسم تقانة المعلومات والذكاء الاصطناعي، ومحاضرته في مؤتمر مسارات التعافي، وأوصى به رسمياً في خطاب التوصية المؤسسي.",
+    ref_1_org: "Reparametrize Foundation",
+    ref_1_desc: "أشرف بشكل مباشر على قيادة ورد في قسم IT & AI، ومحاضرته في مؤتمر مسارات التعافي (Recovery Pathways)، وأوصى به رسمياً في خطاب التوصية المؤسسي.",
     ref_2_name: "أ. سارية حباب",
-    ref_2_title: "المدير التقني والتنفيذي",
-    ref_2_org: "شركة HabApps",
+    ref_2_title: "المدير التنفيذي والتقني",
+    ref_2_org: "HabApps",
     ref_2_desc: "أشرف على قيادة ورد لأنظمة الباك إند وقواعد بيانات MySQL والسيرفرات لتطبيق Kozee العقاري في HabApps.",
     ref_phone_lbl: "الهاتف",
     ref_email_lbl: "البريد الإلكتروني",
@@ -426,7 +426,7 @@ const translations = {
     // Contact Section
     contact_tag: "تواصل معي",
     contact_title: "لنبدأ العمل على مشروعك القادم",
-    contact_desc: "سواء كنت تبحث عن مهندس أنظمة خلفية متمرس بلارافيل، أو استشارة معمارية برمجية، يسعدني دائماً التواصل والتعاون.",
+    contact_desc: "سواء كنت تبحث عن مهندس أنظمة خلفية متمرس في Laravel، أو استشارة في المعمارية البرمجية، يسعدني دائماً التواصل والتعاون معك.",
     contact_email_title: "البريد الإلكتروني",
     contact_phone_title: "الهاتف والواتساب",
     contact_loc_title: "الموقع",
@@ -440,26 +440,26 @@ const translations = {
     form_email_lbl: "البريد الإلكتروني",
     form_email_ph: "name@example.com",
     form_subject_lbl: "الموضوع",
-    form_subject_ph: "فرصة عمل / استشارة / مشروع جديد",
+    form_subject_ph: "فرصة عمل / استشارة معمارية / مشروع جديد",
     form_message_lbl: "الرسالة",
     form_message_ph: "مرحباً ورد، أود التحدث معك بخصوص...",
     form_submit_btn: "إرسال الرسالة",
     form_whatsapp_btn: "محادثة فورية عبر واتساب",
-    form_success_msg: "شكراً لتواصلك! تم تجهيز نص الرسالة، ويمكنك أيضاً التحدث معي مباشرة عبر واتساب.",
+    form_success_msg: "شكراً لتواصلك! تم تجهيز نص الرسالة، ويمكنك أيضاً التواصل معي مباشرة عبر واتساب.",
 
     // Footer
     footer_rights: "جميع الحقوق محفوظة.",
-    footer_built_with: "صُمم وبُني بدقة وفق أحدث معايير الويب والمعمارية النظيفة.",
+    footer_built_with: "صُمم وبُني بدقة وفق أحدث معايير الويب ومبادئ Clean Architecture.",
 
     // Recommendation Modal
     modal_rec_title: "خطاب التوصية المهنية الرسمي",
-    modal_rec_org: "مؤسسة ريبارامتريز — قسم تقانة المعلومات والذكاء الاصطناعي",
+    modal_rec_org: "Reparametrize Foundation — قسم IT & AI",
     modal_rec_date: "دمشق، 04/07/2026",
     modal_rec_btn_en: "النص الإنجليزي الأصلي",
     modal_rec_btn_ar: "الترجمة العربية المعتمدة",
-    modal_rec_dl_pdf: "تحميل ملف التوصية الموقع (PDF)",
+    modal_rec_dl_pdf: "تحميل وثيقة التوصية المعتمدة (PDF)",
     modal_close: "إغلاق",
-    modal_proj_title: "تفاصيل المشروع والمعمارية"
+    modal_proj_title: "تفاصيل المشروع والمعمارية البرمجية"
   }
 };
 
@@ -485,23 +485,23 @@ const recommendationLetterData = {
     signeeOrg: "Reparametrize Foundation"
   },
   ar: {
-    header: "منصة إعادة ترميز ما بعد الأزمات — مبادرة من مؤسسة ريبارامتريز (Reparametrize Foundation)",
-    subHeader: "تعزيز المرونة الحضرية من خلال حلول مستدامة تعتمد على البيانات للتعافي بعد الأزمات.\nمؤسسة ريبارامتريز هي منظمة غير ربحية مشهرة برقم 2246 في وزارة الشؤون الاجتماعية والعمل لدى حكومة الجمهورية العربية السورية.",
+    header: "منصة Re-coding Post-Crisis — مبادرة من Reparametrize Foundation",
+    subHeader: "تعزيز المرونة الحضرية من خلال حلول مستدامة تعتمد على البيانات للتعافي بعد الأزمات.\nReparametrize Foundation هي منظمة غير ربحية مشهرة برقم 2246 لدى وزارة الشؤون الاجتماعية والعمل في الجمهورية العربية السورية.",
     contactInfo: "www.reparametrize.com | هاتف: 6969 9477 96+ | البريد: recoding@reparametrize.com",
     date: "دمشق، 04/07/2026",
     salutation: "إلى من يهمه الأمر،",
     paragraphs: [
-      "يسعدني ويشرفني أن أوصي بالسيد ورد الشاهين، الذي عمل كمتطوع متفانٍ في قسم تقانة المعلومات والذكاء الاصطناعي (IT & AI Department) في مؤسسة ريبارامتريز منذ يوليو 2025 وحتى الآن، مساهماً بما مجموعه 208 ساعات تطوعية. وخلال هذه الفترة، شارك ورد بفاعلية في «منصة إعادة ترميز ما بعد الأزمات» (Re-coding Post-Crisis Platform)، إحدى المبادرات الرائدة للمؤسسة التي تأسست عام 2018 لتعزيز التعافي الحضري في المناطق المتضررة من خلال أبحاث وبيانات مدفوعة بالذكاء الاصطناعي والحلول المستدامة لتحويل المدن المتضررة إلى بيئات حضرية مرنة وذكية وشاملة.",
-      "انضم إلينا ورد الشاهين كباحث مبتدئ (Junior Researcher) خلال مرحلة العصف الذهني في عملنا الحالي «موزاييك إعادة ترميز سوريا» (Mosaic Recoding Syria). وقد أثبت كفاءته العالية في وقت قياسي، مما أدى إلى ترقيته لمرتبة قائد فريق أول (Senior Leader). وخلال فترة تواجده معنا، أظهر ورد التزاماً استثنائياً ومهنية ومهارة عالية عادت بنفع كبير على قسمنا والمهمة الشاملة للمنصة.",
-      "وبصفته قائداً أول، قام ورد بتحليل مجموعات البيانات المعقدة، وترجمة الاستنتاجات التقنية إلى مخرجات عملية قابلة للتنفيذ، وضمان التنفيذ الفعال عبر مختلف الأنظمة ومسارات العمل بدقة وكفاءة بالغة.",
-      "كانت مساهماته خلال حدث «مسارات التعافي» (Recovery Pathways) — والذي استعرض نتائج المدرسة الصيفية لإعادة الترميز وشهد الإعلان الرسمي عن قاعدة بيانات ريبارامتريز مفتوحة المصدر — مساهمات بارزة واستثنائية. حيث قدم ورد محاضرة عامة ملهمة بعنوان «دور الذكاء الاصطناعي في منهجيات إعادة إعمار مدن ما بعد النزاع»، وقدم مداخلات قيّمة في النقاش العام للحدث، رابطاً بنجاح بين التقنيات الناشئة ومتطلبات المرونة الحضرية على أرض الواقع.",
+      "يسعدني ويشرفني أن أوصي بالسيد ورد الشاهين، الذي عمل كمتطوع متفانٍ في قسم IT & AI في Reparametrize Foundation منذ يوليو 2025 وحتى الآن، مساهماً بما مجموعه 208 ساعات تطوعية وبحثية. وخلال هذه الفترة، شارك ورد بفاعلية في منصة Re-coding Post-Crisis Platform، إحدى المبادرات الرائدة للمؤسسة التي تأسست عام 2018 لتعزيز التعافي الحضري في المناطق المتضررة من خلال أبحاث وبيانات مدفوعة بنماذج الذكاء الاصطناعي والحلول المستدامة لتحويل المدن المتضررة إلى بيئات حضرية مرنة وذكية وشاملة.",
+      "انضم إلينا ورد الشاهين كباحث مبتدئ (Junior Researcher) خلال مرحلة العصف الذهني لمشروعنا الحالي Mosaic Recoding Syria. وقد أثبت كفاءته العالية في وقت قياسي، مما أدى إلى ترقيته لمرتبة قائد فريق أول (Senior Leader). وخلال فترة تواجده معنا، أظهر ورد التزاماً استثنائياً ومهنية ومهارة هندسية عادت بنفع كبير على قسمنا والمهمة الشاملة للمنصة.",
+      "وبصفته Senior Leader، قام ورد بتحليل مجموعات البيانات المعقدة، وترجمة الاستنتاجات التقنية إلى مخرجات عملية قابلة للتنفيذ، مع ضمان التنفيذ الفعال عبر مختلف الأنظمة ومسارات العمل بدقة وكفاءة بالغة.",
+      "كانت مساهماته خلال حدث Recovery Pathways — والذي استعرض نتائج مدرسة Re-coding الصيفية وشهد الإعلان الرسمي عن قاعدة بيانات Reparametrize مفتوحة المصدر — مساهمات بارزة واستثنائية. حيث قدم ورد محاضرة عامة ملهمة بعنوان «دور الذكاء الاصطناعي في منهجيات إعادة إعمار مدن ما بعد النزاع»، وقدم مداخلات قيّمة في النقاش العام للحدث، رابطاً بنجاح بين التقنيات الناشئة ومتطلبات المرونة الحضرية على أرض الواقع.",
       "كما تميز ورد بالعمل الجماعي وروح المبادرة العالية ودعم زملائه، وكانت قدرته العالية على التكيف وحل المشكلات عاملاً حاسماً في بيئة العمل الديناميكية بعد الأزمات، وأسهم حضوره الإيجابي في رفع معنويات الفريق وإنتاجيته.",
-      "بشكل عام، كان ورد الشاهين مكسباً كبيراً لمؤسستنا، تاركاً بصمة وأثراً دائماً بتفانيه وخبرته. وأنا على ثقة تامة بأنه سيقدم نفس المستوى من الالتزام والتميز في أي مهام ومساعٍ مستقبلية. أوصي بورد الشاهين بشدة، ويسعدني تقديم أي تفاصيل إضافية عند الطلب عبر وسائل التواصل الموضحة أدناه.",
+      "بشكل عام، كان ورد الشاهين مكسباً كبيراً لمؤسستنا، تاركاً بصمة وأثراً دائماً بتفانيه وخبرته. وأنا على ثقة تامة بأنه سيقدم نفس المستوى من الالتزام والتميز في أي مهام ومساعٍ مستقبلية. أوصي بورد الشاهين بشدة، ويسعدني تقديم أي تفاصيل إضافية عند الطلب عبر وسائل التواصل الموضحة أدناه."
     ],
     closing: "مع فائق التقدير والاحترام،",
     signee: "م. محمد زوار النوري (M.Arch, مرشح دكتوراه)",
     signeeTitle: "المؤسس والمدير التنفيذي",
-    signeeOrg: "مؤسسة ريبارامتريز (Reparametrize Foundation)"
+    signeeOrg: "Reparametrize Foundation"
   }
 };
 
@@ -784,7 +784,7 @@ function renderRecommendationLetter(lang) {
 const projectDetailsData = {
   kozee: {
     en: {
-      title: "Kozee Real Estate Platform",
+      title: "Kozee",
       badge: "Production Backend & Lead Infrastructure",
       summary: "High-performance property discovery application engineered for HabApps, catering to thousands of active buyers and property agencies.",
       techStack: ["Laravel", "MySQL", "RESTful APIs", "Geo-Spatial Queries", "Video Streaming Backend", "Ubuntu / Nginx"],
@@ -800,9 +800,9 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "منصة كوزي العقارية (Kozee)",
-      badge: "الباك إند الرئيسي وإدارة السيرفرات في HabApps",
-      summary: "تطبيق عقاري عالي الأداء مصمم ومطور لشركة HabApps لخدمة آلاف المستخدمين والوسطاء والشركات العقارية.",
+      title: "Kozee",
+      badge: "الأنظمة الخلفية الرئيسية وإدارة السيرفرات في HabApps",
+      summary: "تطبيق عقاري عالي الأداء مصمم ومطور لخدمة آلاف المستخدمين والوسطاء والوكالات العقارية في HabApps.",
       techStack: ["Laravel", "MySQL", "RESTful APIs", "Geo-Spatial Queries", "Video Streaming Backend", "Ubuntu / Nginx"],
       challenges: [
         "معالجة الاستعلامات الجغرافية والخرائط في أجزاء من الثانية مع فلاتر متعددة وضغط متزامن.",
@@ -818,7 +818,7 @@ const projectDetailsData = {
   },
   nuhieh: {
     en: {
-      title: "Nuhieh Hybrid Learning Platform",
+      title: "Nuhieh",
       badge: "Full-Stack Backend & Architecture Lead",
       summary: "Next-generation electronic hybrid school platform bridging self-paced digital learning with direct classroom participation.",
       techStack: ["Laravel", "Clean Architecture", "RBAC", "MySQL", "RESTful APIs", "Automated Assessments"],
@@ -834,14 +834,14 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "منصة نُحيه التعليمية الهجينة",
-      badge: "تطوير الباك إند بالكامل والتخطيط المعماري",
-      summary: "منصة مدرسية إلكترونية هجينة تربط بين التعليم الذاتي والرقمي والتعليم داخل الفصول، مع لوحات تحكم متخصصة.",
+      title: "Nuhieh",
+      badge: "قيادة المعمارية وتطوير الأنظمة الخلفية بالكامل",
+      summary: "منصة مدرسية إلكترونية هجينة تربط بين التعليم الذاتي والرقمي والتعليم التفاعلي داخل الفصول، مع لوحات تحكم متخصصة.",
       techStack: ["Laravel", "Clean Architecture", "RBAC", "MySQL", "RESTful APIs", "Automated Assessments"],
       challenges: [
         "توحيد مسارات العمل لأربع فئات مختلفة (الإدارة، المعلمون، أولياء الأمور، والطلاب) في نظام متماسك.",
         "أتمتة خوارزميات الجداول الدراسية لمنع التعارض الزمني بين المدرسين والقاعات الصفية.",
-        "توفير بيئة آمنة وعالية الموثوقية لحفظ السجلات الأكاديمية والواجبات ورصد الحضور اليومي."
+        "توفير بيئة آمنة وعالية الموثوقية لحفظ السجلات الأكاديمية والواجبات ورصد الحضور اليومي.",
       ],
       solutions: [
         "تصميم نظام تحكم بالصلاحيات (RBAC Middleware) يفحص الأذونات بدقة فائقة لكل مسار.",
@@ -852,7 +852,7 @@ const projectDetailsData = {
   },
   care: {
     en: {
-      title: "Care Me Healthcare Suite",
+      title: "Care Me",
       badge: "Real-time WebSockets & GraphQL Integration",
       summary: "Medical clinic automation platform offering real-time patient-doctor telemedicine, instant messaging, and automated bookings.",
       techStack: ["Laravel", "GraphQL", "WebSockets / Pusher", "MySQL", "Push Notifications", "Clean Architecture"],
@@ -868,9 +868,9 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "نظام كير مي لإدارة العيادات (Care Me)",
+      title: "Care Me",
       badge: "الاتصال اللحظي WebSockets وواجهات GraphQL",
-      summary: "تطبيق متطور لإدارة العيادات الطبية، يوفر محادثات فورية بين المرضى والأطباء، حجز المواعيد، واستعلامات مرنة.",
+      summary: "منصة متطورة لأتمتة العيادات والمراكز الطبية، توفر محادثات فورية بين المرضى والأطباء، حجز المواعيد، واستعلامات مرنة للسجلات.",
       techStack: ["Laravel", "GraphQL", "WebSockets / Pusher", "MySQL", "Push Notifications", "Clean Architecture"],
       challenges: [
         "تأمين اتصال فوري لحظي ثنائي الاتجاه بين المرضى والكوادر الطبية بأقل زمن استجابة ممكن.",
@@ -886,7 +886,7 @@ const projectDetailsData = {
   },
   advance: {
     en: {
-      title: "AdVance Digital Advertising Marketplace",
+      title: "AdVance",
       badge: "FinTech Ledger & In-App Digital Wallet",
       summary: "High-scale marketplace enabling advertisers to launch ad campaigns while host applications monetize their digital inventory.",
       techStack: ["Laravel", "Double-Entry Ledger", "RESTful APIs", "Digital Wallet", "MySQL", "Anti-Fraud Algorithms"],
@@ -902,9 +902,9 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "منصة آد فانس الإعلانية (AdVance)",
-      badge: "محفظة رقمية ونظام محاسبي متطور (FinTech)",
-      summary: "سوق رقمي يربط بين المعلنين والتطبيقات المستضيفة مع إدارة دقيقة للمحافظ المالية والحملات الإعلانية.",
+      title: "AdVance",
+      badge: "محفظة رقمية وسجل محاسبي متطور (FinTech & AdTech)",
+      summary: "سوق رقمي واسع النطاق يربط بين المعلنين والتطبيقات المستضيفة مع إدارة دقيقة للمحافظ المالية والحملات الإعلانية ومكافحة الاحتيال.",
       techStack: ["Laravel", "Double-Entry Ledger", "RESTful APIs", "Digital Wallet", "MySQL", "Anti-Fraud Algorithms"],
       challenges: [
         "ضمان الدقة المالية المطلقة والتماسك الذري لجميع حركات المحفظة الرقمية والأرصدة.",
@@ -920,7 +920,7 @@ const projectDetailsData = {
   },
   brief: {
     en: {
-      title: "BriefCode Low-Code Mobile Engine",
+      title: "BriefCode",
       badge: "Aspect-Oriented Programming (AOP) & Compilers",
       summary: "Low-code system built to accelerate mobile software creation with aspect separation, resource competition schedulers, and design patterns.",
       techStack: ["PHP Core", "AOP Concepts", "Compiler / AST Parsing", "Factory & Façade Patterns", "Architecture Patterns"],
@@ -936,7 +936,7 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "بيئة بريف كود (BriefCode Low-Code)",
+      title: "BriefCode",
       badge: "البرمجة موجهة الجوانب (AOP) وهندسة المترجمات",
       summary: "بيئة تطوير منخفضة الكود لتسريع إنشاء تطبيقات الهواتف، تعتمد على فصل الاهتمامات وجدولة الموارد وأنماط التصميم.",
       techStack: ["PHP Core", "AOP Concepts", "Compiler / AST Parsing", "Factory & Façade Patterns", "Architecture Patterns"],
@@ -954,7 +954,7 @@ const projectDetailsData = {
   },
   dream: {
     en: {
-      title: "Dream Shop Multi-User E-Commerce",
+      title: "Dream Shop",
       badge: "Scalable E-Commerce & Multi-Vendor APIs",
       summary: "Multi-user e-commerce platform powering mobile clients with real-time stock management, cart sync, and secure transactions.",
       techStack: ["Laravel", "RESTful APIs", "Relational Database Design", "Sanctum Auth", "MySQL"],
@@ -970,8 +970,8 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "منصة دريم شوب (Dream Shop)",
-      badge: "تجارة إلكترونية متعددة المستخدمين والبائعين",
+      title: "Dream Shop",
+      badge: "تجارة إلكترونية متعددة التجار وتطبيقات الهواتف",
       summary: "منصة تجارة إلكترونية متكاملة تخدم تطبيقات الهاتف مع إدارة دقيقة للمخزون وسلة المشتريات والطلبات.",
       techStack: ["Laravel", "RESTful APIs", "Relational Database Design", "Sanctum Auth", "MySQL"],
       challenges: [
@@ -988,7 +988,7 @@ const projectDetailsData = {
   },
   mosaic: {
     en: {
-      title: "Mosaic Recoding Syria Platform",
+      title: "Mosaic Recoding Syria",
       badge: "Open-Source AI & Urban Research Platform",
       summary: "Scientific data research platform by Reparametrize Foundation advancing post-crisis urban reconstruction and resilient city design through AI data analytics.",
       techStack: ["Laravel Backend", "AI Data Pipelines", "Open Database APIs", "Urban Resilience Analytics", "Data Visualization"],
@@ -1004,9 +1004,9 @@ const projectDetailsData = {
       ]
     },
     ar: {
-      title: "منصة موزاييك لإعادة تسجيل سوريا",
+      title: "Mosaic Recoding Syria",
       badge: "منصة علمية مفتوحة المصدر مدعومة بالذكاء الاصطناعي",
-      summary: "منصة أبحاث علمية تابعة لمؤسسة ريبارامتريز لتوظيف الذكاء الاصطناعي في إعادة إعمار المدن المتضررة وتخطيط المرونة الحضرية.",
+      summary: "منصة أبحاث علمية تابعة لـ Reparametrize Foundation لتوظيف الذكاء الاصطناعي في إعادة إعمار المدن المتضررة وتخطيط المرونة الحضرية.",
       techStack: ["Laravel Backend", "AI Data Pipelines", "Open Database APIs", "Urban Resilience Analytics", "Data Visualization"],
       challenges: [
         "معالجة مجموعات بيانات ضخمة ومتباينة حول الأضرار الحضرية والمؤشرات الاجتماعية والاقتصادية للمدن.",
@@ -1015,8 +1015,8 @@ const projectDetailsData = {
       ],
       solutions: [
         "بناء واجهات برمجية بلارافيل تمد نماذج الذكاء الاصطناعي ببيانات مدققة للتحليل الفوري.",
-        "المساهمة في بناء قاعدة البيانات المفتوحة للمؤسسة والإعلان عنها رسمياً في مؤتمر مسارات التعافي.",
-        "الترقية إلى قائد فريق أول (Senior Leader) وتقديم محاضرات علمية حول توظيف الذكاء الاصطناعي في التخطيط الحضري."
+        "المساهمة في بناء قاعدة بيانات Reparametrize المفتوحة والإعلان عنها رسمياً في مؤتمر Recovery Pathways.",
+        "الترقية إلى Senior Leader وتقديم محاضرات علمية حول توظيف الذكاء الاصطناعي في التخطيط الحضري."
       ]
     }
   }
