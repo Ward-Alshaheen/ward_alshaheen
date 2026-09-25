@@ -8,10 +8,11 @@ const translations = {
     // Nav
     nav_home: "Home",
     nav_about: "About",
+    nav_recommendation: "Recommendation",
     nav_skills: "Skills",
     nav_experience: "Experience",
     nav_projects: "Projects",
-    nav_recommendation: "Recommendation",
+    nav_references: "References",
     nav_contact: "Contact",
     nav_download_cv: "Download CV",
     
@@ -225,10 +226,11 @@ const translations = {
     // Nav
     nav_home: "الرئيسية",
     nav_about: "من أنا",
+    nav_recommendation: "التوصية الرسمية",
     nav_skills: "المهارات",
     nav_experience: "الخبرات",
     nav_projects: "المشاريع",
-    nav_recommendation: "التوصية الرسمية",
+    nav_references: "المعرفون والتوصيات",
     nav_contact: "تواصل معي",
     nav_download_cv: "تحميل السيرة الذاتية",
 
