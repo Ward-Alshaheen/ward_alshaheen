@@ -1669,12 +1669,30 @@ html[dir="rtl"] .back-to-top {
   transform: translateY(-3px);
 }
 
-/* Responsive Styles */
+/* ==========================================================================
+   Responsive Design System (Mobile-First Optimization)
+   Desktop (1025px+) stays untouched; Tablet (769px-1024px) & Mobile (<=768px)
+   ========================================================================== */
+
+/* Prevent any accidental horizontal overflow */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Tablet Screens (769px - 1024px) */
 @media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 3rem;
+  }
+
+  .hero-text-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .hero-description {
@@ -1699,30 +1717,185 @@ html[dir="rtl"] .back-to-top {
   }
 }
 
+/* Mobile Screens (<= 768px) */
 @media (max-width: 768px) {
+  /* Navigation Bar */
+  .nav-container {
+    padding: 0.65rem 1rem;
+  }
+
+  .nav-logo {
+    font-size: 1.1rem;
+    gap: 0.4rem;
+  }
+
+  .nav-actions {
+    gap: 0.4rem;
+  }
+
+  .icon-btn {
+    padding: 0.45rem 0.55rem;
+    font-size: 0.8rem;
+  }
+
+  /* Compact Icon-Only buttons on mobile */
+  .theme-text,
+  .lang-text {
+    display: none !important;
+  }
+
+  .mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+  }
+
+  /* Animated Floating Mobile Menu */
   .nav-links {
     position: fixed;
-    top: 70px;
-    left: 0;
-    right: 0;
+    top: 62px;
+    left: 1rem;
+    right: 1rem;
     background: var(--bg-modal);
-    border-bottom: 1px solid var(--border-color);
+    border: 1px solid var(--border-glow);
+    border-radius: 1.25rem;
+    box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.85);
     flex-direction: column;
-    padding: 1.5rem;
-    gap: 1.25rem;
+    padding: 1.25rem 1rem;
+    gap: 0.5rem;
     display: none;
+    z-index: 100;
   }
 
   .nav-links.open {
     display: flex;
+    animation: slideDownMobile 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
-  .mobile-toggle {
-    display: block;
+  @keyframes slideDownMobile {
+    from {
+      opacity: 0;
+      transform: translateY(-10px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.65rem 1rem;
+    border-radius: 0.65rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all var(--transition-fast);
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    background: rgba(255, 45, 32, 0.12);
+    color: var(--laravel-red);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  /* Sections Spacing */
+  .section {
+    padding: 3.75rem 0;
+  }
+
+  .section-container {
+    padding: 0 1rem;
+  }
+
+  .section-header {
+    margin-bottom: 2.25rem;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+    line-height: 1.25;
+  }
+
+  .section-desc {
+    font-size: 0.95rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+    min-height: auto;
+  }
+
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  /* Put avatar first on mobile for immediate visual impact */
+  .hero-avatar-wrapper {
+    order: -1;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .avatar-frame {
+    width: 200px;
+    height: 200px;
+    padding: 6px;
+  }
+
+  .avatar-ring-outer {
+    width: 240px;
+    height: 240px;
+  }
+
+  .avatar-ring-inner {
+    width: 220px;
+    height: 220px;
+  }
+
+  /* Tightly bound floating pills that never cause horizontal overflow */
+  .floating-pill {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.75rem;
+  }
+
+  .pill-1 {
+    top: -5px;
+    left: 5%;
+  }
+
+  .pill-2 {
+    bottom: -5px;
+    right: 5%;
+  }
+
+  .pill-3 {
+    display: none; /* Hide 3rd pill on mobile to prevent clutter */
   }
 
   .hero-title {
-    font-size: 2.35rem;
+    font-size: 2.2rem;
+    line-height: 1.2;
   }
 
   .hero-subtitle {
@@ -1730,39 +1903,120 @@ html[dir="rtl"] .back-to-top {
     justify-content: center;
   }
 
-  .avatar-frame {
-    width: 240px;
-    height: 240px;
+  .hero-description {
+    font-size: 0.98rem;
+    line-height: 1.7;
+    margin-bottom: 1.75rem;
   }
 
-  .avatar-ring-outer {
-    width: 280px;
-    height: 280px;
+  /* Hero Buttons Stack on Mobile */
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
   }
 
-  .avatar-ring-inner {
-    width: 260px;
-    height: 260px;
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline-emerald {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1.25rem;
+    font-size: 0.95rem;
   }
 
+  /* Stats Bar: Clean 2x2 Grid on Mobile */
   .stats-bar {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
+    padding: 1rem 0.85rem !important;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .stat-item {
+    gap: 0.75rem;
+  }
+
+  .stat-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 0.65rem;
+    font-size: 1.2rem;
+  }
+
+  .stat-number {
+    font-size: 1.45rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    line-height: 1.3;
+  }
+
+  /* Recommendation Card on Mobile */
+  .recommendation-card {
+    padding: 1.5rem 1.15rem;
+    border-radius: 1.25rem;
+  }
+
+  .rec-quote {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  html[dir="rtl"] .rec-quote {
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+
+  .rec-highlights-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .rec-highlight-box {
+    padding: 1rem;
+  }
+
+  .rec-box-val {
+    font-size: 1.25rem;
+  }
+
+  .rec-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+  }
+
+  .rec-footer .flex {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rec-footer .btn-outline-emerald,
+  .rec-footer .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Skills Grid */
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .skill-category-card {
     padding: 1.25rem;
   }
 
-  .section-title {
-    font-size: 2rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .recommendation-card {
-    padding: 1.75rem;
-  }
-
+  /* Timeline on Mobile */
   .timeline-container::before {
     left: 14px;
   }
@@ -1773,7 +2027,10 @@ html[dir="rtl"] .back-to-top {
   }
 
   .timeline-dot {
+    top: 4px;
     left: 4px;
+    width: 20px;
+    height: 20px;
   }
 
   html[dir="rtl"] .timeline-dot {
@@ -1782,11 +2039,207 @@ html[dir="rtl"] .back-to-top {
   }
 
   .timeline-item {
-    padding-left: 40px;
+    padding-left: 42px;
+    padding-bottom: 2rem;
   }
 
   html[dir="rtl"] .timeline-item {
     padding-left: 0;
-    padding-right: 40px;
+    padding-right: 42px;
+  }
+
+  .timeline-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .timeline-role {
+    font-size: 1.1rem;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  /* Projects Filter Tabs on Mobile: Horizontal Smooth Scroll */
+  .filter-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.25rem 0.5rem 0.85rem 0.5rem;
+    justify-content: flex-start;
+    scrollbar-width: none;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .filter-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 0.85rem;
+    padding: 0.45rem 1.1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-header-bar {
+    padding: 1.25rem 1.25rem 0.75rem 1.25rem;
+  }
+
+  .project-body {
+    padding: 0 1.25rem 1.25rem 1.25rem;
+  }
+
+  .project-footer {
+    padding: 0.85rem 1.25rem;
+  }
+
+  /* References */
+  .references-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .ref-card {
+    padding: 1.35rem 1.15rem;
+  }
+
+  /* Contact & Form */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-channel-card {
+    padding: 1rem;
+    gap: 0.85rem;
+  }
+
+  .contact-channel-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+  }
+
+  .channel-val {
+    font-size: 0.925rem;
+  }
+
+  .contact-form-card {
+    padding: 1.5rem 1.15rem;
+  }
+
+  /* Crucial iOS fix: 16px prevents mobile Safari auto-zoom on input focus */
+  .form-input,
+  .form-textarea {
+    font-size: 16px !important;
+    padding: 0.8rem 0.95rem;
+  }
+
+  /* Modals on Mobile */
+  .modal-backdrop {
+    padding: 0.75rem;
+  }
+
+  .modal-content {
+    max-height: 90vh;
+    border-radius: 1.25rem;
+    width: 100%;
+  }
+
+  .modal-header {
+    padding: 1.15rem 1rem;
+  }
+
+  .modal-body {
+    padding: 1.15rem 1rem;
+  }
+
+  .official-letterhead {
+    padding: 1.25rem 1rem;
+  }
+
+  .letter-top-bar {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-bottom: 1rem;
+  }
+
+  .letter-title {
+    font-size: 1.1rem;
+  }
+
+  .letter-paragraphs {
+    font-size: 0.925rem;
+    line-height: 1.7;
+    gap: 1rem;
+  }
+
+  .letter-signature-box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  /* Footer on Mobile */
+  .footer {
+    padding: 2.5rem 0 2rem 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem;
+    left: 1.25rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  html[dir="rtl"] .back-to-top {
+    left: auto;
+    right: 1.25rem;
   }
 }
+
+/* Extra Small Phones (<= 400px) */
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.95rem;
+  }
+
+  .avatar-frame {
+    width: 175px;
+    height: 175px;
+  }
+
+  .avatar-ring-outer {
+    width: 215px;
+    height: 215px;
+  }
+
+  .avatar-ring-inner {
+    width: 195px;
+    height: 195px;
+  }
+
+  .stats-bar {
+    grid-template-columns: 1fr !important;
+  }
+}
+
